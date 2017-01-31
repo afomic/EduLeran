@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="@dimen/view_padding"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center_vertical"
+        android:textSize="@dimen/text_size"
+        android:paddingLeft="24dp"
+        android:id="@+id/course_name"
+        android:text="@string/topic_chemical_reaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="@dimen/view_padding"
+    android:gravity="center_vertical"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_gravity="left"
+        android:src="@drawable/ic_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/childTextSize"
+        android:id="@+id/topic_name"
+        android:paddingLeft="24dp"
+        android:text="@string/topic_chemical_reaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

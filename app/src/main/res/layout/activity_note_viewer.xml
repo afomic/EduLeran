@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.afomic.play.MainActivity">
+    <FrameLayout
+        android:id="@+id/viewer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:background="#dafcf8"
+        android:layout_gravity="left"
+        android:orientation="vertical"
+        android:layout_width="240dp"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="16dp"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <TextView
+                android:textSize="16dp"
+                android:text="@string/first_course"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:id="@+id/course_code"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:background="@drawable/oval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:id="@+id/topic_name"
+                android:textSize="@dimen/text_size"
+                android:textColor="@color/surfaceColor"
+                android:text="@string/topic_chemical_reaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <ExpandableListView
+            android:layout_gravity="center"
+            android:id="@+id/topic_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:footerDividersEnabled="true" />
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

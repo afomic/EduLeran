@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Edulearn</string>
+    <string name="first_course">CHM101</string>
+    <string name="second_course">MTH101</string>
+    <string name="third_course">PHY101</string>
+    <string name="fourth_course">TPD101</string>
+    <string name="topic_measurement">Measurement</string>
+    <string name="topic_chemical_reaction">Chemical Reaction</string>
+    <string name="topic_matter">Matter</string>
+    <string name="topic_light">Light</string>
+    <string name="topic_fire">Fire</string>
+    <string name="intro_to_chem">Introduction to Chemistry</string>
+    <string name="first_time">first usage</string>
+    <string name="registered">register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>
